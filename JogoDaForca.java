@@ -9,7 +9,7 @@ public static void main(String[] argd){
     Random rd= new Random();
 
      int dice= rd.nextInt(3);
-     String[] palavra = {"sucesso","abacaxi","banana","java"};
+     String[] palavra = {"sucesso","abacaxi","banana","java","pizza","peixe","passaro"};
   
 
     String escolhido= palavra[dice];
