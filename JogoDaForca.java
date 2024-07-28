@@ -8,8 +8,8 @@ public static void main(String[] argd){
     Scanner sc = new Scanner(System.in);
     Random rd= new Random();
 
-     int dice= rd.nextInt(3);
-     String[] palavra = {"sucesso","abacaxi","banana","java","pizza","peixe","passaro"};
+    String[] palavra = {"sucesso","abacaxi","banana","java","pizza","peixe","passaro"};
+    int dice= rd.nextInt(palavra.length);
   
 
     String escolhido= palavra[dice];
